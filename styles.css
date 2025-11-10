@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: tan;
+}
+
+.container {
+  min-height: 10rem;
+  max-width: 75rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+}
+#pageheader {
+  background-color: skyblue;
+  min-height: auto;
+  padding: 1rem;
+}
+#logo {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: none;
+  background-image: url(Images/logossmall.png);
+}
+
+#pageheader .container {
+  background-color: none;
+  min-height: auto;
+  text-align: center;
+}
+#media {
+  background-color: darkred;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/hero.png);
+  background-size: cover;
+  aspect-ratio: 16/9;
+}
+#career {
+  background-color: green;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#PageContent {
+  background-color: green;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#career {
+  background-color: green;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagecontent {
+  background-color: green;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester1 {
+  background-color: green;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#semester2 {
+  background-color: green;
+  min-height: 10rem;
+  padding: 1rem;
+}
+#pagefooter {
+  background-color: green;
+  min-height: auto;
+  padding: 1rem;
+}
+#pagefooter .container {
+  text-align: center;
+  min-height: auto;
+}
+#subfooter {
+  background-color: green;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+audio {
+  display: block;
+  margin: auto;
+  background-color: red;
+  border: 5px solid red;
+}
