@@ -69,7 +69,7 @@ body {
   padding: 1rem;
 }
 #pagefooter {
-  background-color: green;
+  background-color: saddlebrown;
   min-height: auto;
   padding: 1rem;
 }
@@ -77,6 +77,17 @@ body {
   text-align: center;
   min-height: auto;
 }
+#aifooter {
+  background-color: peru;
+  padding: 1rem;
+  min-height: auto;
+}
+
+#aifooter .container {
+  text-align: center;
+  min-height: auto;
+}
+
 #subfooter {
   background-color: green;
   min-height: 10rem;
