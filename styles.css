@@ -10,7 +10,7 @@ body {
   min-height: 10rem;
   max-width: 75rem;
   margin: auto;
-  background-color: white;
+  background-color: skyblue;
   padding: 1rem;
 }
 #pageheader {
@@ -48,7 +48,7 @@ padding: 0;
 }
 
 #media {
-  background-color: darkred;
+  background-color:none
   min-height: 10rem;
   padding: 1rem;
   background-image: url(Images/hero.png);
