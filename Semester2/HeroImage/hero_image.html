@@ -58,6 +58,69 @@
         border-radius: 8px;
         font-weight: bold;
       }
+
+      .intro {
+        padding: 30px;
+      }
+      .intro-content {
+        background-color: white;
+        color: #333;
+        line-height: 1, 7;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      /* Cards */
+
+      .services {
+        background-color: rgb(5, 57, 57);
+        padding: 50px 30px;
+      }
+      .services h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 50px;
+      }
+      .fb-cards {
+        /* border: 5px dotted red; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .card {
+        background-color: white;
+        color: #333;
+        text-align: center;
+        border-radius: 10px;
+        border: 5px solid silver;
+        width: 300px;
+        padding: 20px;
+      }
+      .card h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+      }
+      .card p {
+      }
+      .card a {
+        display: inline-block;
+        background-color: red;
+        padding: 12px 24px 12px 24px;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+      }
+
+      footer {
+        background-color: #3e0d0a;
+        padding: 20px;
+        text-align: center;
+        border-top: 5px solid white;
+      }
     </style>
   </head>
 
@@ -76,34 +139,36 @@
       </section>
 
       <section class="intro">
-        <div class="intro-content"></div>
-        <h2>About Us</h2>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, ex,
-          suscipit ea illo iste perspiciatis dolorem iusto similique, nostrum
-          illum nulla temporibus! Dicta incidunt rem modi architecto ipsam ullam
-          magnam, quod, a laudantium dolor fugiat!
-        </p>
+        <div class="intro-content">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, ex,
+            suscipit ea illo iste perspiciatis dolorem iusto similique, nostrum
+            illum nulla temporibus! Dicta incidunt rem modi architecto ipsam
+            ullam magnam, quod, a laudantium dolor fugiat!
+          </p>
+        </div>
       </section>
 
       <section class="services">
         <h2>Our services</h2>
 
-        <div class="fb-cards"></div>
-        <div class="card">
-          <h3>Card One</h3>
-          <p>This is a card. Add a short description.</p>
-          <a href="#">Read More</a>
-        </div>
-        <div class="card">
-          <h3>Card Two</h3>
-          <p>This is a card. Add a short description.</p>
-          <a href="#">Read More</a>
-        </div>
-        <div class="card">
-          <h3>Card Three</h3>
-          <p>This is a card. Add a short description.</p>
-          <a href="#">Read More</a>
+        <div class="fb-cards">
+          <div class="card">
+            <h3>Card One</h3>
+            <p>This is a card. Add a short description.</p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="card">
+            <h3>Card Two</h3>
+            <p>This is a card. Add a short description.</p>
+            <a href="#">Read More</a>
+          </div>
+          <div class="card">
+            <h3>Card Three</h3>
+            <p>This is a card. Add a short description.</p>
+            <a href="#">Read More</a>
+          </div>
         </div>
       </section>
     </main>
