@@ -57,12 +57,13 @@ padding: 0;
 }
 
 #media {
-  background-color:none
+  background-color:lightblue
   min-height: 10rem;
   padding: 1rem;
   background-image: url(Images/hero.png);
   background-size: cover;
   aspect-ratio: 16/9;
+  background-position:bottom center:
 }
 #career {
   background-color: navy;
