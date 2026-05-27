@@ -1,17 +1,18 @@
-/* Mobile view - Default */
-:root{
-  --primary-color: sienna;
-  --secondary-color: gainsboro;
-  --tertiary-color: antiquewhite;
+:root {
+  --primary-color: #9c6b3f;
+  --secondary-color: #e9d9b8;
+  --tertiary-color: #d7be92;
   --main-font: arial;
 }
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: slategray;
+  background-color: #a98058;
 }
+
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -24,124 +25,135 @@ body {
   font-style: normal;
 }
 
-
-
 .container {
   min-height: 10rem;
   max-width: 75rem;
   margin: auto;
-  background-color: skyblue;
+  background-color: #e9d9b8;
   padding: 1rem;
 }
+
 #pageheader {
-  background-color: var(--secondary-color);
+  background-color: #dcc6a0;
   min-height: auto;
   padding: 1rem;
 }
+
 #logo {
   width: 6.25rem;
   height: 6.25rem;
-  background-color: none;
-  background-image: url(Images/logossmall.png);
+  background-image: url(Images/Logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   margin: auto;
-  border: 1px solid none;
 }
 
 #pageheader .container {
   min-height: auto;
 }
-#pageheader nav{
+
+#pageheader nav {
   text-align: center;
 }
-#pageheader nav ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
+
+#pageheader nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-#pageheader nav ul li{
-  border: 2px solid skyblue;
+
+#pageheader nav ul li {
+  border: 2px solid #e9d9b8;
   padding: 1rem;
-  background-color: bisque;
+  background-color: #e8d0a7;
   margin: 2px;
   border-radius: 10px;
+  color: #5c3a1e;
 }
-#pageheader nav ul li:hover{
-  background-color: darkblue;
+
+#pageheader nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#pageheader nav ul li:hover {
+  background-color: #9c6b3f;
+  color: #f5ebd7;
 }
 
 #media {
-  background-color:lightblue
+  background-color: #dcc6a0;
   min-height: 10rem;
   padding: 1rem;
-  background-image: url(Images/hero.png);
+  background-image: url(Images/HeroImage.jpg);
   background-size: cover;
   aspect-ratio: 16/9;
-  background-position:bottom center:
+  background-position: bottom center;
 }
+
 #career {
-  background-color: navy;
+  background-color: #c19b73;
   min-height: 10rem;
   padding: 1rem;
 }
-#PageContent {
-  background-color: green;
-  min-height: 10rem;
-  padding: 1rem;
-}
-#career {
-  background-color: navy;
-  min-height: 10rem;
-  padding: 1rem;
-}
+
 #pagecontent {
-  background-color: navy;
+  background-color: #d6b38a;
   min-height: 10rem;
   padding: 1rem;
 }
+
 #semester1 {
-  background-color: navy;
+  background-color: #e4c79b;
   min-height: 10rem;
   padding: 1rem;
 }
+
 #semester2 {
-  background-color: navy;
+  background-color: #e9ccaa;
   min-height: 10rem;
   padding: 1rem;
 }
+
 #worksamples {
-  background-color: navy;
+  background-color: #e2c6a0;
   min-height: 10rem;
   padding: 1rem;
 }
-#worksamples ul{
+
+#worksamples ul {
   list-style-type: none;
 }
+
 #certificates {
-  background-color: navy;
+  background-color: #dcc09b;
   min-height: 10rem;
   padding: 1rem;
 }
+
 #certificates ul {
   list-style-type: none;
 }
 
 #certificates i {
-  color:cadetblue;
-  font-size: .9rem;
-  padding-right: .7rem;
+  color: #7a5a38;
+  font-size: 0.9rem;
+  padding-right: 0.7rem;
 }
 
 #pagefooter {
-  background-color: navy;
+  background-color: #d1ae83;
   min-height: auto;
   padding: 1rem;
 }
+
 #pagefooter .container {
   text-align: center;
   min-height: auto;
 }
+
 #aifooter {
-  background-color: navy;
+  background-color: #d1ae83;
   padding: 1rem;
   min-height: auto;
 }
@@ -152,7 +164,7 @@ padding: 0;
 }
 
 #subfooter {
-  background-color: var(--secondary-color);
+  background-color: #d1ae83;
   min-height: 10rem;
   padding: 1rem;
 }
@@ -160,42 +172,48 @@ padding: 0;
 audio {
   display: block;
   margin: auto;
-  background-color: deepskyblue;
-  border: 5px solid red;
+  background-color: #9c6b3f;
 }
+
+a {
+  color: #5c3a1e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f5ebd7;
+}
+
 /* Tablet View */
-@media screen and (min-width:600px)
-{
-  #pageheader nav ul{
-
-    background-color:none;
+@media screen and (min-width: 600px) {
+  #pageheader nav ul {
     margin-top: 2rem;
-  }  
+  }
 
-  #pageheader nav ul li{
+  #pageheader nav ul li {
     display: inline-block;
   }
-  
-  #pagecontent
-    {
-      background-color: red;
-    }
-    #career{
-      background-color: blue;
-    }
-    #logo{
-      margin: 0;
-    }
-}
-/* Desktop View */
-@media screen and (min-width:1000px)
-{
-    #pagecontent
-    {
-      background-color: navy;
-    }
-    #career{
-      background-color: navy;
-    }
+
+  #pagecontent {
+    background-color: #cfa57b;
+  }
+
+  #career {
+    background-color: #b9895f;
+  }
+
+  #logo {
+    margin: 0;
+  }
 }
 
+/* Desktop View */
+@media screen and (min-width: 1000px) {
+  #pagecontent {
+    background-color: #e0bc93;
+  }
+
+  #career {
+    background-color: #d4a97b;
+  }
+}
