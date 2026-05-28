@@ -1,4 +1,3 @@
-/* Mobile View - Default */
 :root {
   --primary-color: #9c6b3f;
   --secondary-color: #e9d9b8;
@@ -20,7 +19,7 @@ body {
   font-style: normal;
 }
 
-.felipa-regular {
+.elipa-regular {
   font-family: "Felipa", serif;
   font-weight: 400;
   font-style: normal;
@@ -44,7 +43,7 @@ body {
 #logo {
   width: 6.25rem;
   height: 6.25rem;
-  background-image: url(Images/Logo.png);
+  background-image: url(Images/logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto;
@@ -87,8 +86,7 @@ body {
   background-color: #dcc6a0;
   min-height: 10rem;
   padding: 1rem;
-  background-image: url(Images/hero.png);
-  background-repeat: no-repeat;
+  background-image: url(Images/heroimage.png);
   background-size: cover;
   aspect-ratio: 16/9;
   background-position: bottom center;
