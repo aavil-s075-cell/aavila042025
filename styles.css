@@ -1,3 +1,4 @@
+/* Mobile View - Default */
 :root {
   --primary-color: #9c6b3f;
   --secondary-color: #e9d9b8;
@@ -31,6 +32,7 @@ body {
   margin: auto;
   background-color: #e9d9b8;
   padding: 1rem;
+  line-height: 1.5;
 }
 
 #pageheader {
@@ -85,7 +87,8 @@ body {
   background-color: #dcc6a0;
   min-height: 10rem;
   padding: 1rem;
-  background-image: url(Images/HeroImage.jpg);
+  background-image: url(Images/hero.png);
+  background-repeat: no-repeat;
   background-size: cover;
   aspect-ratio: 16/9;
   background-position: bottom center;
